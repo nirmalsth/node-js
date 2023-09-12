@@ -11,3 +11,11 @@ phases:
     commands:
       - echo Build started on `date`
       - npm install
+      - mkdir /app
+      - cp *.js* /app
+      - cd /app
+
+artifacts:
+  files:
+    - /app
+      
