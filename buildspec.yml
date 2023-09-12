@@ -12,8 +12,7 @@ phases:
       - echo Build started on `date`
       - npm install
       - mkdir /app
-      - cp * /app
-      - cd /app
+      - cp ./* /app
 
 artifacts:
   files:
