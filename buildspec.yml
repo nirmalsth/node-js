@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing node app and npm
+      - sudo apt-get update
+      - sudo apt install nodejs -y
+      - sudo apt install npm
+  build:
+    commands:
+      - echo Build started on `date`
+      - cd node-js
+      - npm install
