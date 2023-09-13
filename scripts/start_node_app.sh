@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu/app/
-sudo npm start
+sudo pm2 -f start index.js
