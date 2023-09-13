@@ -9,10 +9,10 @@ hooks:
   #     timeout: 300
   #     runas: root
   AfterInstall:
-    - location: scripts/install_node
+    - location: scripts/install_node.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: scripts/start_node_app
+    - location: scripts/start_node_app.sh
       timeout: 300
       runas: root
